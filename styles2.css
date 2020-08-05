@@ -1,71 +1,16 @@
-/* .wrapper .slide{
-  width: 30vw;
-  height: 170px;
-  display: inline-block;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-}
-.wrapper {
 
-  white-space: nowrap;
-  display: flex;
-  flex-direction: row;
-  width: 200vw;
-  transform: rotate(90deg) translateY(-100vh);
-  transform-origin: top left;
 
+.top_content{
+  background-image: url("images/img6.png");
+  background-size: cover;
 }
 
-.outer-wrapper {
-  width: 100vh;
-  height: 100vw;
-  transform: rotate(-90deg) translateX(-100vh);
-  transform-origin: top left;
-
- -ms-overflow-style: none;
-
-}*/
-.outer-wrapper .wrapper
-{
-  width: 100vw;
-  display: inline-block;
-  overflow-x: scroll;
-  list-style:none;
- white-space: nowrap;
-}
-::-webkit-scrollbar{
-  width: 0;
-}
-html {
-
-  scroll-behavior: normal;
-}
-.wrapper .slide{
-  cursor: pointer;
-  min-width: 250px;
-  max-width: 300px;
-  width: 30vw;
-  height: 200px;
-  display: inline-block;
-  color: white ;
-  margin-right:  20px;
-
-}
-.silver_bg .two ,.silver_bg .four{
-  padding: 20px;
-  color: #12385b;
-  background-color: white;
-}
-.two,.four{
-  padding: 20px;
-  color: #12385b;
-  background-color: #eeeeee;
-}
-.one , .three{
-
-  padding: 20px;
+.carousel-item .slide{
   background-color: #12385b;
+  max-width: 400px;
+  min-width: 200px;
+  padding: 10px;
 }
-.one p , .three p{
+.carousel-item p{
   color: white;
 }
