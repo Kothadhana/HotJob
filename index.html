@@ -33,7 +33,7 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="styles2.css">
 <link rel="stylesheet" href="stylenew.css">
-<script type="text/javascript" src="app2.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
@@ -71,9 +71,9 @@
                     <ul class="navbar-nav">
                         <li><a class="nav-link active" href="index.html">Home</a></li>
                         <li><a class="nav-link" href="about.html">About</a></li>
-                        <li><a class="nav-link" href="#">Job Search</a></li>
-                        <li><a class="nav-link" href="#">Work From Home</a></li>
-						<li><a class="nav-link" href="#">Career Tips</a></li>
+                        <li><a class="nav-link" href="#jobSearch">Job Search</a></li>
+                        <li><a class="nav-link" href="#recent">Recent Jobs</a></li>
+						<li><a class="nav-link" href="#homework">Work From Home</a></li>
 						<li><a class="nav-link" href="contact.html">Contact us</a></li>
                     </ul>
                 </div>
@@ -186,10 +186,39 @@ At the heart of our success and our future is innovation: We are changing the wa
     </div>
 </div>
 	<!-- end section -->
+  <div class="col-md-12">
+      <div class="full">
+          <div class="heading_main text_align_center" id="jobSearch">
+ <h2><span>Search For </span>Jobs</h2>
+          </div>
+      </div>
+  </div>
+  <div class="section layout_padding padding_bottom-0">
+      <div class="container">
+          <div class="">
+            <div class="form ">
+              <form class="row" action="index.html" method="post">
+                <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableJob()">
+                  <input type="text" class="form-control job" id="job" name="job" value="Enter Skills/Jobs"  disabled>
+                </div>
+                <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableCity()" >
+                  <input type="text" class="form-control city" id="city" name="city" value="Enter City" disabled>
+                </div>
+              </form>
+              <div class="container">
+                <div class="full text_align_center" >
+                   <a class="hvr-radial-out button-theme" href="#" >Search</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+  </div>
+</div>
 	<!-- section -->  <div class="container">
   <div class="col-md-12">
       <div class="full">
-          <div class="heading_main text_align_center">
+          <div class="heading_main text_align_center " id="recent">
  <h2><span>Recent </span>Jobs</h2>
           </div>
       </div>
@@ -275,7 +304,7 @@ At the heart of our success and our future is innovation: We are changing the wa
 	<!-- end section -->
 	<!-- section -->
   <br><br>
-  <div class="heading_main text_align_center">
+  <div class="heading_main text_align_center" id="homework">
  <h2><span>Work From Home Jobs</h2>
   </div>
   <br><br>
@@ -631,6 +660,7 @@ At the heart of our success and our future is innovation: We are changing the wa
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
 
     <!-- ALL JS FILES -->
+    <script type="text/javascript" src="app2.js"></script>
 
     <script src="js/jquery.min.js"></script>
 	<script src="js/popper.min.js"></script>
