@@ -167,7 +167,7 @@ a.navbar-brand img {
     font-size: 13px;
     min-height: 55px;
     line-height: 55px !important;
- 
+
 }
 
 }
@@ -306,7 +306,7 @@ a.navbar-brand img {
     }
      .slide_text {
          margin-top: 10%;
-		 display:none;
+
     }
      .slide_text h3 {
          font-size: 20px;
@@ -319,9 +319,9 @@ a.navbar-brand img {
          display: none;
     }
      .contact_bt {
-         width: 90px;
+         width: 150px;
          height: 35px;
-         background: #07528d;
+         background: #d4a81e
          color: #fff;
          float: left;
          line-height: 36px;
@@ -409,14 +409,13 @@ a.navbar-brand img {
          width: 100%;
          text-align: center;
     }
-    
+
 	.heading_main h2 {
          font-size: 25px;
     }
-	
+
 	.newsletter_form input {
          width: 100%;
     }
 
 }
- 
