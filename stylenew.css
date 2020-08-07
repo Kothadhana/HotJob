@@ -129,3 +129,6 @@
         visibility: visible;
       }
 }
+.carousel a.carousel-control-prev, .carousel a.carousel-control-next{
+  background-color: transparent;
+}
