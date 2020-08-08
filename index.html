@@ -33,12 +33,12 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="styles2.css">
 <link rel="stylesheet" href="stylenew.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
-
-
     [if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -59,7 +59,7 @@
 
     <!-- Start header -->
     <header class="top-header">
-        <nav class="navbar header-nav navbar-expand-xl">
+        <nav class="navbar header-nav nav navbar-expand-lg">
             <div class="container-fluid">
                 <a class="navbar-brand" href="index.html">HotJob Club</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-wd" aria-controls="navbar-wd" aria-expanded="false" aria-label="Toggle navigation">
@@ -68,16 +68,19 @@
                     <span></span>
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbar-wd">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ml-auto">
                         <li><a class="nav-link active" href="index.html">Home</a></li>
                         <li><a class="nav-link" href="about.html">About</a></li>
                         <li><a class="nav-link" href="jobsearch.html">Job Search</a></li>
-                        <li><a class="nav-link" href="#recent">Recent Jobs</a></li>
-						<li><a class="nav-link" href="#homework">Work From Home</a></li>
-						<li><a class="nav-link" href="contact.html">Contact us</a></li>
+
+					            	<li><a class="nav-link" href="contact.html">Contact us</a></li>
+                        <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                        <li><a href="login.html"><span  class="glyphicon glyphicon-log-in"></span> Login</a></li>
+
                     </ul>
                 </div>
                 <div class="search-box">
+
                     <input type="text" class="search-txt" placeholder="Search">
                     <a class="search-btn">
                         <img src="images/search_icon.png" alt="#" />
@@ -102,7 +105,7 @@
                                         <h4></h4>
                                         <br>
                                         <div class="full center">
-				           <a class="contact_bt" href="jobsearch.html">Search for a job</a>
+										    <a class="contact_bt" href="jobsearch.html">Search for a job</a>
 										</div>
                                     </div>
                                 </div>
@@ -118,7 +121,7 @@
                                         <h4></h4>
                                         <br>
                                         <div class="full center" >
-                                            <a class="contact_bt" href="jobsearch.html">Search for a job</a>
+										                         <a class="contact_bt" href="jobsearch.html">Search for a job</a>
                              				  	</div>
                               <br><br>      </div>
                                 </div>
@@ -201,10 +204,10 @@ At the heart of our success and our future is innovation: We are changing the wa
             <div class="form ">
               <form class="row" action="index.html" method="post">
                 <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableJob()">
-                  <input type="text" class="form-control job" id="job" name="job" value="Enter Skills/Jobs"  disabled>
+                  <input type="text" class="form-control job" id="job" name="job" value="Enter Skills/Jobs" >
                 </div>
                 <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableCity()" >
-                  <input type="text" class="form-control city" id="city" name="city" value="Enter City" disabled>
+                  <input type="text" class="form-control city" id="city" name="city" value="Enter City" >
                 </div>
               </form>
               <div class="container">
@@ -429,11 +432,67 @@ At the heart of our success and our future is innovation: We are changing the wa
         </div>
     </div>
 <br><br>
+<br><br>
+<div class="heading_main text_align_center" id="homework">
+<h2><span>Why Choose</span> Us</h2>
+</div>
+<br><br>
+<div class="section layout_padding padding_bottom-0 silver_bg" style="margin-top: 50px;">
+     <div class="container">
 
+       <section class="services">
+           <div class="container">
 
+               <div class="container">
+                   <div class="row">
+                      <!--  <div class="col-sm-6 col-lg-4">
+                           <div class="media" data-aos="fade-up" data-aos-delay="200" data-aos-duration="400">
+                               <img class="mr-4" src="service1.png" alt="Web Development">
+                               <div class="media-body">
+                                   <h5>Web Development</h5>
+                                   Donec volutpat tincidunt neque, vitae lobortis libero mattis sed tempus.
+                               </div>
+                           </div>
+                       </div>  -->
+                       <div class="col-sm-6 col-lg-4 choose">
+                           <div class="media" data-aos="fade-up" data-aos-delay="400" data-aos-duration="600">
+                               <img class="mr-4" src="service2.png" alt="Web Development">
+                               <div class="media-body">
+                                   <h3>Testing for perfection</h3>
+                                   Donec volutpat tincidunt neque, vitae lobortis libero mattis sed tempus.
+                               </div>
+                           </div>
+                       </div>
+                       <div class="col-sm-6 col-lg-4 choose">
+                           <div class="media" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                               <img class="mr-4" src="service3.png" alt="Web Development">
+                               <div class="media-body">
+                                   <h3>The Biggest, Best Site for Curated Remote Work From Home & Flexible Jobs</h3>
+
+ Our team of trained researchers works tirelessly on your behalf to find and screen the best remote and flexible jobs—part-time to full-time, entry-level to executive, in 50+ categories.
+                               </div>
+                           </div>
+                       </div>
+
+                       <div class="col-sm-6 col-lg-4 choose">
+                           <div class="media" data-aos="fade-up" data-aos-delay="600" data-aos-duration="800">
+                               <img class="mr-4" src="service5.png" alt="Web Development">
+                               <div class="media-body">
+                                   <h3>Research on Companies</h3>
+
+ Our users can leverage information on over 40,000 organizations who hire for remote, freelance, part-time, and flexible schedule jobs to help their job search.
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </section>
+     </div>
+   </div>
 	<!-- end section -->
 	<!-- section -->
-  	<!--  <div class="section layout_padding padding_bottom-0">
+<!--  	 <div class="section layout_padding padding_bottom-0">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -458,11 +517,11 @@ At the heart of our success and our future is innovation: We are changing the wa
                 </div>
             </div>
         </div>
-    </div>  -->
+    </div> -->
 	<!-- end section -->
 	<!-- section -->
-	<!--    <div class="section layout_padding padding_bottom-0"> -->
-      <!--  <div class="container">
+  <!-- <div class="section layout_padding padding_bottom-0">
+       <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="full">
@@ -477,7 +536,7 @@ At the heart of our success and our future is innovation: We are changing the wa
                     <div id="demo" class="carousel slide" data-ride="carousel">  -->
 
                         <!-- The slideshow -->
-                      <!--     <div class="carousel-inner">
+                    <!--    <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6 col-sm-12">
@@ -514,10 +573,10 @@ At the heart of our success and our future is innovation: We are changing the wa
                                     </div>
                                 </div>
                             </div>
-                        </div>-->
+                        </div> -->
 
                         <!-- Left and right controls -->
-                      <!--   <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                    <!--     <a class="carousel-control-prev" href="#demo" data-slide="prev">
                             <span class="carousel-control-prev-icon"></span>
                         </a>
                         <a class="carousel-control-next" href="#demo" data-slide="next">
@@ -527,7 +586,7 @@ At the heart of our success and our future is innovation: We are changing the wa
                 </div>
             </div>
            </div>
-        </div>  -->
+        </div> -->
 	<!-- end section -->
 	<!-- section -->
   <!--  <div class="section layout_padding padding_bottom-0">
@@ -545,7 +604,14 @@ At the heart of our success and our future is innovation: We are changing the wa
         </div>  -->
 	<!-- end section -->
 	<!-- section -->
-    <div class="section contact_section" style="background:#12385b;">
+
+  <br><br>
+  <div class="heading_main text_align_center" id="contactform" >
+ <h2><span>Contact </span> Us</span></h2>
+ <br><br>
+  </div>
+  <br><br>
+    <div class="section contact_section" style="background:#12385b;margin-top: 50px">
         <div class="container">
                <div class="row">
                  <div class="col-lg-6 col-md-6 col-sm-12">
