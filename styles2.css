@@ -1,5 +1,20 @@
+li{
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+  vertical-align: bottom;
 
-
+}
+.choose{
+color: #12385b;
+  font-size: 17px;
+}
+.services .media {
+    margin: 40px 0;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+}
 .top_content{
   background-image: url("images/img6.png");
   background-size: cover;

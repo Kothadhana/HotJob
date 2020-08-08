@@ -33,6 +33,10 @@
     <link rel="stylesheet" href="css/custom.css" />
     <link rel="stylesheet" href="styles2.css">
 <link rel="stylesheet" href="stylenew.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
   <!--  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -72,11 +76,11 @@
                   <ul class="navbar-nav">
                       <li><a class="nav-link active" href="index.html">Home</a></li>
                       <li><a class="nav-link" href="about.html">About</a></li>
-                      <li style="text-decoration: underline"><a class="nav-link" href="jobsearch.html"  >Job Search</a></li>
-                      <li><a class="nav-link" href="#recent" >Recent Jobs</a></li>
-                      <li><a class="nav-link" href="#homework">Work From Home</a></li>
+                      <li><a class="nav-link" href="jobsearch.html">Job Search</a></li>
                       <li><a class="nav-link" href="contact.html">Contact us</a></li>
-                  </ul>
+                       <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                       <li><a href="login.html"><span  class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
               </div>
               <div class="search-box">
                   <input type="text" class="search-txt" placeholder="Search">
@@ -104,11 +108,11 @@
         <div class="">
           <div class="form ">
             <form class="row" action="index.html" method="post">
-              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableJob()">
-                <input type="text" class="form-control job" id="job" name="job" value="Enter Skills/Jobs"  disabled>
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableJobs()">
+                <input type="text" class="form-control job2" id="job2" name="job" value="Enter Skills/Jobs"  >
               </div>
-              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableCity()" >
-                <input type="text" class="form-control city" id="city" name="city" value="Enter City" disabled>
+              <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xsm-12" onclick="enableCitys()" >
+                <input type="text" class="form-control city2" id="city2" name="city" value="Enter City" >
               </div>
             </form>
             <div class="container">
@@ -438,7 +442,9 @@
     </div>
 
     <a href="#" id="scroll-to-top" class="hvr-radial-out"><i class="fa fa-angle-up"></i></a>
+<script type="text/javascript" src="app2.js">
 
+</script>
     <!-- ALL JS FILES -->
     <script src="js/jquery.min.js"></script>
   <script src="js/popper.min.js"></script>
