@@ -1,18 +1,22 @@
 function enableJob()
 {
-
-    $(".job")[0].removeAttribute("disabled");
     $(".job")[0].value="";
 }
 
 function enableCity()
 {
-  
-   $(".city")[0].removeAttribute("disabled");
    $(".city")[0].value="";
 }
 
+function enableJobs()
+{
+    $(".job2")[0].value="";
+}
 
+function enableCitys()
+{
+   $(".city2")[0].value="";
+}
 $('#carousel-example').on('slide.bs.carousel', function (e) {
     /*
         CC 2.0 License Iatek LLC 2018 - Attribution required
