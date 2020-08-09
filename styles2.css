@@ -4,10 +4,59 @@ li{
   vertical-align: bottom;
 
 }
+.carousel-item3 a .slide{
+   background-color: transparent;
+   margin: auto;
+ }
+
+    .slide img{
+      background-color: transparent;
+      margin: auto;
+      min-width: 200px;
+
+      max-width: 250px;
+      height: 250px;
+    }
+
+@media (max-width: 990px){
+  #Resume{
+    width: 100vw;
+    z-index: 0 !important;
+    height: auto;
+    position: relative !important;
+  }
+}
+#start{
+  background-color: #d4a81e;
+
+}
+#start  a:hover{
+  font-weight: bold;
+  color: white
+}
+@media  (max-width: 768px)
+{
+  .carousel-item3{
+    margin: auto;
+  }
+
+  .slide img{
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin: auto;
+    width: 200px;
+    height: 250px;
+  }
+
+
+}
 .choose{
 color: #12385b;
   font-size: 17px;
 }
+
 .services .media {
     margin: 40px 0;
 }
