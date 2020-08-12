@@ -1,8 +1,7 @@
 .body{
   height: 100%;
-  background: linear-gradient(to bottom left, #75daad,#323edd, #f35588);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-color: #ddd;
+
 }
 .container{
   padding-top: 50px;
